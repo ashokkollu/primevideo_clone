@@ -1,0 +1,53 @@
+*{
+    color: white;
+    font-family: 'Amazon Ember Display', sans-serif;
+}
+body{
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+}
+
+.align{
+    display: flex;
+    flex-direction: row;
+    padding:1px 2px;
+}
+
+.one{
+    width:700px;
+}
+.ext{
+    border:2px solid black;
+        width: 640px;
+        height: 450px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+}
+.links{
+    
+    width: 200px;
+    height:140px;
+    border-radius: 5%;
+
+}
+
+footer{
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    
+}
+.ftr{
+    display: flex;
+    justify-content: center;
+}
