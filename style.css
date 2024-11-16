@@ -6,14 +6,16 @@ body{
     background-color: black;
 }
 
+a{
+    text-decoration: none;
+}
+
 nav{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-nav a{
-    text-decoration: none;
-}
+
 
 .align{
     display: flex;
