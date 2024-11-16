@@ -5,7 +5,6 @@
 body{
     background-color: black;
 }
-
 a{
     text-decoration: none;
 }
@@ -26,6 +25,10 @@ nav{
 .one{
     width:700px;
 }
+
+.two{
+    margin-left: 4%;
+}
 .ext{
     border:2px solid black;
         width: 640px;
@@ -43,13 +46,27 @@ nav{
 
 }
 
+/* footer styling */
 footer{
     background-color: #222222;
     display: flex;
     flex-direction: column;
+
     
 }
 .ftr{
     display: flex;
     justify-content: center;
+}
+.ftrlinks{
+    margin: 10px;
+    
+}
+
+footer>div>a{
+    color: #79b8f3;
+}
+
+.last{
+    color: #8197a4;
 }
