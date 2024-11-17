@@ -16,6 +16,31 @@ nav{
 }
 
 
+.navlinks1, .navlinks2{
+    fill:white;
+
+}
+.navlinks1:hover{
+    fill:black;
+    color: black;
+    background-color: white;
+    border: auto;
+}
+.navlinks2:hover{
+    fill: black;
+    color: black;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
 .align{
     display: flex;
     flex-direction: row;
@@ -47,6 +72,7 @@ nav{
 }
 
 /* footer styling */
+
 footer{
     background-color: #222222;
     display: flex;
@@ -70,3 +96,6 @@ footer>div>a{
 .last{
     color: #8197a4;
 }
+
+
+
