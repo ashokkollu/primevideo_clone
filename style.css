@@ -24,6 +24,7 @@ nav{
     align-items: center;
     justify-content: space-around;
     width:700px;
+
 }
 
 .navlinks{
@@ -73,25 +74,31 @@ svg:hover{
 /* section styling */
 
 
-
-
-
-
 .align{
+    border:1px solid goldenrod;
     display: flex;
     flex-direction: row;
     padding:1px 2px;
 }
 
 .one{
-    width:700px;
+border: 1px solid skyblue;
+
 }
 
 .two{
-    margin-left: 4%;
+    border: 1px solid rgb(242, 0, 255);
+   
 }
+
+.subdiv{
+    width:700px;
+    border: 1px solid red;
+}
+
+
 .ext{
-    border:2px solid black;
+    border:2px solid rgb(0, 249, 8);
         width: 640px;
         height: 450px;
         display: flex;
@@ -104,7 +111,10 @@ svg:hover{
     width: 200px;
     height:140px;
     border-radius: 5%;
-
+    border: 3px solid BLACK;
+}
+.links:hover{
+    border: 3px solid whitesmoke;
 }
 
 /* footer styling */
