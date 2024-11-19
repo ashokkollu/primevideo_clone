@@ -9,37 +9,48 @@ body{
     background-color: black;
 }
 
+
 /* NAVBAR STYLING */
 
 nav{
-    border:1px solid red;
+  
     display: flex;
     flex-direction: row;
     margin-left: 63px;
     margin-top: 8px;
+    
 }
 
 .logo{
     margin-top: 50px;
 }
-.navbtn1,.navbtn2{
+.navbtn1{
     background-color: black;
     border-style: none;
     padding:10px  16px;
+    font-size:medium;
+    font-weight:bold;
 
 }
-
-.navbtn1:hover,.navbtn2:hover{
-    background-color: white;
-    color: black;
-}
+.navbtn2{
+    background-color:black;
+    border-radius:100%;
+     border-style: none;
+     color: white;
+    padding: 12px 14px;
+}   
 
 .navbtn1:hover{
+    background-color: white;
+    color: black;
     border-radius: 5px;
 }
 
+
 .navbtn2:hover{
-    border-radius: 300px;
+    background-color: white;
+    color:black;
+
 }
 .join{
     background-color: #157bcf;
@@ -56,26 +67,28 @@ nav{
 }
 
 
+
 /* section styling */
 section{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 40px;
+    padding: 40px 0 40px 50px;
 }
 
 .text-container {
-    max-width: 40%;
+    max-width: 50%;
 }
 
 .text-container h1 {
-    font-size: 36px;
+    font-size: 55px;
     margin-bottom: 10px;
 }
 
 .text-container p {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 20px;
+    font-weight:500;
 }
 
 .text-container button {
@@ -95,7 +108,7 @@ section{
 
 .image-container {
     width: 55%;
-    border-radius: 10px;
+    border-radius: 5px;
     overflow: hidden;
 }
 
@@ -114,6 +127,7 @@ section{
         flex-wrap: wrap;
         justify-content: space-evenly;
         align-items: center;
+        padding-right: 50px;
 }
 .links{
     
@@ -123,7 +137,6 @@ section{
     border: 3px solid BLACK;
 }
 .links:hover{
-    border: 3px solid whitesmoke;
 }
 
 /* footer styling */
@@ -132,7 +145,7 @@ footer{
     background-color: #222222;
     display: flex;
     flex-direction: column;
-    padding: 20px 0;
+    padding: 20px  0 0 0;
 
     
 }
@@ -144,6 +157,7 @@ footer{
 
 
 footer>div>a{
+    padding-top: 2px;
     color: #79b8f3;
     margin: 0 10px;
 }
@@ -155,3 +169,5 @@ footer>div>a:hover{
 .last{
     color: #8197a4;
 }
+
+
