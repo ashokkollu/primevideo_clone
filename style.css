@@ -232,7 +232,9 @@ section {
     flex-direction: column-reverse;
     padding: 20px;
 }
-
+.secbtn{
+    width: 100%;
+}
 
 .text-container {
     text-align: left;
