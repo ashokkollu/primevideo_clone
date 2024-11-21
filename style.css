@@ -7,10 +7,10 @@
 body{
     background-color: black;
 }
-/*nav styling  */
 
+/*nav styling  */
 #menubtn {
-    display: none; /* Default: hidden */
+    display: none;
   }
   
 nav {
@@ -49,8 +49,7 @@ nav a{
     background-color:#f1f1f1;
     color:#00050d;
     border-radius: 50%;
-    box-shadow: 0 0 5px #f1f1f1;
-    
+    box-shadow: 0 0 5px #f1f1f1; 
   }
 
   .sqbtn:hover {
@@ -65,7 +64,6 @@ nav a{
     margin-right: 230px;
   }
 
-
   .material-icons {
     font-size: 18px;
     vertical-align: middle;
@@ -79,16 +77,13 @@ nav a{
     font-size:medium;
     font-weight:bold;
     cursor: pointer;
-
 }
 .navbtn:hover{
   background-color:#f1f1f1;
   color:#00050d;
     border-radius: 5px;
     box-shadow: 0 0 5px #f1f1f1;
-    
 }
-
 
 .joinbtn{
     background-color: #157bcf;
@@ -102,11 +97,6 @@ nav a{
     background-color: #1a98ff;
     box-shadow: 0 0 10px #1a98ff;
 }
-
-
-
-
-
 
 /* section styling */
 
@@ -131,9 +121,7 @@ section{
 .text-container h1 {
 
     font-size: 3rem;
-    margin-bottom: 20px;
-   
-    
+    margin-bottom: 20px; 
 }
 
 .text-container p {
@@ -160,7 +148,6 @@ section{
     color:#4d4d4d;
 }
 
-
 .image-container {
     width: 55%;
     border-radius: 5px;
@@ -173,7 +160,6 @@ section{
     display: block;
     border-radius: 8px;
 }
-
 
 .ext{
         width: 640px;
@@ -203,15 +189,12 @@ footer{
     display: flex;
     flex-direction: column;
     padding: 20px  0 0 0;
-
-    
 }
 
 .ftr{
     display: flex;
     justify-content: center;
 }
-
 
 footer>div>a{
     padding-top: 2px;
@@ -227,10 +210,6 @@ footer>div>a:hover{
     color: #8197a4;
 }
 
-
-
-
-
 /* responsive */
 
 @media screen and (min-width: 769px) {
@@ -238,7 +217,6 @@ footer>div>a:hover{
     
     display: none;
   }
-
 }
 
 @media screen and (max-width: 768px) {
