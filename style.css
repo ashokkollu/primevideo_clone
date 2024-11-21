@@ -233,6 +233,7 @@ section {
     padding: 20px;
 }
 
+
 .text-container {
     text-align: left;
     max-width: 100%; 
@@ -258,8 +259,8 @@ section {
 }
 .links{
 
-width: 120px;
-height:90px;
+width: 100px;
+height:80px;
 border-radius: 10%;
 border:none;
 
