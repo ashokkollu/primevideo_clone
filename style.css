@@ -231,23 +231,38 @@ footer>div>a:hover{
 
 
 
+/* responsive */
 
-  @media screen and (min-width: 769px) {
-    #menubtn {
-      display: none;
-    }
-  
-    .navbtn {
-      display: inline-block;
-    }
+@media screen and (min-width: 769px) {
+  #menubtn {
+    
+    display: none;
   }
-  @media screen and (max-width: 768px) {
-    #menubtn {
-      display: inline-block; 
-    }
-  
-    .navbtn {
-      display: none;
-    }
-  }
-  
+
+}
+
+@media screen and (max-width: 768px) {
+.navbtn, .subs {
+    display: none;
+}
+#menubtn{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+section {
+    flex-direction: column-reverse;
+    padding: 20px;
+}
+
+.text-container {
+    text-align: left;
+    max-width: 100%; 
+    margin-bottom: 20px;
+}
+
+.image-container {
+    width: 100%;
+    margin-bottom: 20px;
+}
+}
