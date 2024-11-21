@@ -1,1 +1,1 @@
-Amazon Prime Video Landing page
+Amazon Prime Video Home page
