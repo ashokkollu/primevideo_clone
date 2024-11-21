@@ -1,5 +1,4 @@
 *{
-    color: white;
     font-family: 'Amazon Ember Display', sans-serif;
     a{
         text-decoration: none;
@@ -8,103 +7,159 @@
 body{
     background-color: black;
 }
+/*nav styling  */
 
-
-/* NAVBAR STYLING */
-
-nav{
+#menubtn {
+    display: none; /* Default: hidden */
+  }
   
+nav {
     display: flex;
-    flex-direction: row;
-    margin-left: 63px;
-    margin-top: 8px;
-    
+    align-items: center;
+    background-color: black;
+    padding: 5px 20px;
+    margin-left: 45px;
+    font-size: medium;
+    font-weight:550;
+  }
+
+.navimg{
+    width:100px;
+    padding-right: 22px;
 }
 
-.logo{
-    margin-top: 50px;
+nav a{
+    padding-right: 25px;
 }
-.navbtn1{
+.btn {
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    font-size: 16px;
+    gap: 8px;
+    cursor: pointer;
+  }
+
+  .rbtn:hover {
+    background-color:#f1f1f1;
+    color:#00050d;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #f1f1f1;
+    
+  }
+
+  .sqbtn:hover {
+    background-color:#f1f1f1;
+    color:#00050d;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #f1f1f1;
+  }
+
+  .subs{
+    margin-left:  40px;
+    margin-right: 230px;
+  }
+
+
+  .material-icons {
+    font-size: 18px;
+    vertical-align: middle;
+  }
+
+  .navbtn{
+    background-color: black;
+    color:white;
     border-style: none;
     padding:10px  16px;
     font-size:medium;
     font-weight:bold;
+    cursor: pointer;
 
 }
-.navbtn2{
-    background-color:black;
-    border-radius:100%;
-     border-style: none;
-     color: white;
-    padding: 12px 14px;
-}   
-
-.navbtn1:hover{
-    background-color: white;
-    color: black;
+.navbtn:hover{
+  background-color:#f1f1f1;
+  color:#00050d;
     border-radius: 5px;
+    box-shadow: 0 0 5px #f1f1f1;
+    
 }
 
 
-.navbtn2:hover{
-    background-color: white;
-    color:black;
-
-}
-.join{
+.joinbtn{
     background-color: #157bcf;
-    width: 120px;
-    height: 45px;
     font-weight: 600;
     font-size: medium;
-    border-radius: 10px;
-    border-color: #157bcf;
+    border-radius: 9px;
+    border-color: none;
+    margin-left: 10px;
 }
-.join:hover{
+.joinbtn:hover{
     background-color: #1a98ff;
-    border-color: #1a98ff;
+    box-shadow: 0 0 10px #1a98ff;
 }
+
+
+
 
 
 
 /* section styling */
+
+h1, p{
+    color:white;
+}
 section{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 40px 0 40px 50px;
+    padding: 5px 0 60px 50px;
+    margin-left: 20px;
 }
 
 .text-container {
+    text-align: left;
+    margin-bottom: 40px;
     max-width: 50%;
 }
 
+
 .text-container h1 {
-    font-size: 55px;
-    margin-bottom: 10px;
+
+    font-size: 3rem;
+    margin-bottom: 20px;
+   
+    
 }
 
 .text-container p {
-    font-size: 20px;
-    margin-bottom: 20px;
+    font-size: 1.2rem;
+    margin-top: 40px;
+    margin-bottom: 30px;
     font-weight:500;
 }
-
 .text-container button {
     background-color: #fff;
     color: #000;
     border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 16px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
     font-weight: bold;
     cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .text-container button:hover {
-    background-color: #E8E8E8;
+    transform: scale(1.1);
+    background-color: #f1f1f1;
+    color:#4d4d4d;
 }
+
 
 .image-container {
     width: 55%;
@@ -134,9 +189,11 @@ section{
     width: 200px;
     height:140px;
     border-radius: 10%;
-    border: 3px solid BLACK;
+    border:none;
+    
 }
 .links:hover{
+    box-shadow: 0 0 10px grey;
 }
 
 /* footer styling */
@@ -171,3 +228,26 @@ footer>div>a:hover{
 }
 
 
+
+
+
+
+  @media screen and (min-width: 769px) {
+    #menubtn {
+      display: none;
+    }
+  
+    .navbtn {
+      display: inline-block;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    #menubtn {
+      display: inline-block; 
+    }
+  
+    .navbtn {
+      display: none;
+    }
+  }
+  
