@@ -155,9 +155,7 @@ section{
     align-items:start;
     justify-content: flex-start;
 }
-.sec3 .sec3text{
-    margin-left: 30px;
-}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
