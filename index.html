@@ -1,130 +1,132 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome to Prime Video</title>
-  <link rel="icon" href="images/titlelogo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Prime Video</title>
+    <link rel="icon" href="images/titlelogo.png">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.cdnfonts.com/css/amazon-ember" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
-
-  
 </head>
-
 <body>
-  <nav>
-    <a href="#" class="btn sqbtn" id="menubtn">Menu<i class="material-icons">keyboard_arrow_down</i></a>
-    <a href="#"><img class="navimg" src="images/logo.png" alt="" width="28%"></a>
-    <a href="#" class="navbtn">Home</a>
-    <a href="#" class="navbtn">Movies</a>
-    <a href="#" class="navbtn">TV Shows</a>
-    <a href="#" class="navbtn">Live TV</a><p class="dash" style="color: white;">  |</p>
-    <a href="#" class="btn sqbtn subs"><i class="material-icons">dashboard_customize</i> Subscriptions</a>
-    <a href="#" class="btn rbtn"><i class="material-icons">search</i></a>
-    <a href="#" class="btn sqbtn">EN<i class="material-icons">keyboard_arrow_down</i></a>
-    <a href="#" class="btn rbtn apps"><i class="material-icons">apps</i></a>
-    <a class="btn rbtn prbtn" href="#"><i class="material-icons">person</i></a>
-    <a class="nav btn joinbtn" href="#">Join Prime</a>
-  </nav>
-  <section>
-    <div class="text-container">
-        <div>
-            <h1>Welcome to Prime Video</h1>
-            <p>Join Prime to watch the latest movies, TV shows and award-winning Amazon Originals
-            </p>
+    <nav>
+        <div class="navdiv">
+            <a href="#" class="btn sqbtn" id="menubtn"><span>Menu</span><i class="material-icons">keyboard_arrow_down</i></a>
+            <a href="#"><img class="navimg" src="images/primelogo.png" alt="" width="28%"></a>
         </div>
-        <div>
-            <button class="secbtn">Sign in to join Prime</button>
+        <a href="#" class="navbtn">Home</a>
+        <a href="#" class="navbtn">Movies</a>
+        <a href="#" class="navbtn">TV Shows</a>
+        <a href="#" class="navbtn">Live TV</a><p class="dash" style="color: white;">  |</p>
+        <a href="#" class="btn sqbtn subs"><i class="material-icons">dashboard_customize</i> <span>Subscriptions</span></a>
+        <a href="#" class="btn rbtn"><i class="material-icons">search</i></a>
+        <a href="#" class="btn sqbtn"><span>EN</span><i class="material-icons">keyboard_arrow_down</i></a>
+        <a href="#" class="btn rbtn apps"><i class="material-icons">apps</i></a>
+        <a class="btn rbtn prbtn" href="#"><i class="material-icons">person</i></a>
+        <a class="nav btn joinbtn" href="#">Join Prime</a>
+    </nav>
+    <section class="section1 txtsec">
+        <div class="fade">
+            <div class="image-container">
+                <img src="images/welcomehidden.png">
+            </div>
+            <div class="text-container">
+                <div>
+                    <h1 class="txth1">Welcome to Prime Video</h1>
+                    <p class="txtp">Join Prime to watch the latest movies, TV shows and award-winning Amazon Originals
+                    </p>
+                </div>
+                <div>
+                    <button class="secbtn">Sign in to join Prime</button>
+                </div>
+            </div>
+            
         </div>
-    </div>
-    <div class="image-container">
-        <img src="images/welcome.png">
-    </div>
-
-</section>
-<section>
-    <div class="text-container">
-        <div>
-            <h1>Movie rentals on Prime Video
-            </h1>
-            <p>Early Access to new movies, before digital subscription</p>
+    </section>
+    <section class="section2 txtsec">
+        <div class="fade">
+            <div class="image-container">
+                <img src="images/renthidden.png">
+            </div>
+            <div class="text-container">
+                <div>
+                    <h1 class="txth1">Movie rentals on Prime Video
+                    </h1>
+                    <p class="txtp">Early Access to new movies, before digital subscription</p>
+                </div>
+                <div> <button class="secbtn">Rent now</button></div>
+            </div>
+           
         </div>
-        <div> <button class="secbtn">Rent now</button></div>
+    </section>
+    <section class="sec3">
+        <div class="sec3text">
+            <div class="text-container-sec3 ">
+                <div>
+                    <h1 class="txth1">Your favorite subscriptions all in one place</h1>
+                    <p class="txtp">With Prime Video Channels, find shows and movies from your favorite channels all in one place. Enjoy with an add-on subscription to Channels of your choice</p>
+                </div>
+            </div>
+        </div>
         
-    </div>
-    <div class="image-container" id="rimg1">
-        <img src="images/rent.png" alt="">  
-    </div>
-    <div class="image-container" id="rimg2">
-        <img src="images/rent2.png" alt="">  
-    </div>
-</section>
-<section class="sec3">
-    <div class="text-container sec3text">
-        <h1>Your favorite subscriptions all in one place</h1>
-        <p>With Prime Video Channels, find shows and movies from your favorite channels all in one place. Enjoy with an add-on subscription to Channels of your choice</p>
-    </div>
-    <div class="grid-container">
-        <div class="grid-item">
-            <a href="#">
-                <img src="images/lionsgate.jpg" alt="Lionsgate Play">
-            </a>
+        <div class="grid-container">
+            <div class="grid-item">
+                <a href="#">
+                    <img src="images/lionsgate.png" alt="Lionsgate Play">
+                </a>
+            </div>
+            <div class="grid-item">
+                <a href="#">
+                    <img src="images/discovery.png" alt="Discovery+">
+                </a>
+            </div>
+            <div class="grid-item">
+                <a href="#">
+                    <img src="images/bbc.png" alt="BBC Player">
+                </a>
+            </div>
+            <div class="grid-item">
+                <a href="#">
+                    <img src="images/manorama.png" alt="Manorama Max">
+                </a>
+            </div>
+            <div class="grid-item">
+                <a href="">
+                    <img src="images/hoichoi.png" alt="Hoichoi">
+                </a>
+            </div>
+            <div class="grid-item">
+                <a href="#">
+                    <img src="images/chaupal.png" alt="Chaupal">
+                </a>
+            </div>
+            <div class="grid-item">
+                <a href="#">
+                    <img src="images/anime.png" alt="Anime Times">
+                </a>
+            </div>
+            <div class="grid-item">
+                <a href="#">
+                    <img src="images/sony.png" alt="Sony Pictures Stream">
+                </a>
+            </div>
+            <div class="grid-item">
+                <a href="#">
+                    <img src="images/mgm.png" alt="MGM+">
+                </a>
+            </div>
         </div>
-        <div class="grid-item">
-            <a href="#">
-                <img src="images/discovery.jpg" alt="Discovery+">
-            </a>
+    </section>
+    <footer>
+        <div class="ftr"><img src="images/footer.png"></div>
+        <div class="ftr">
+            <a class="ftrlinks" href="#">Terms and Privacy Notice</a>
+            <a  class="ftrlinks" href="#">Send us feedback</a>
+            <a  class="ftrlinks" href="#">Help</a>
         </div>
-        <div class="grid-item">
-            <a href="#">
-                <img src="images/bbc.png" alt="BBC Player">
-            </a>
-        </div>
-        <div class="grid-item">
-            <a href="#">
-                <img src="images/manorama.jpg" alt="Manorama Max">
-            </a>
-        </div>
-        <div class="grid-item">
-            <a href="">
-                <img src="images/hoichoi.jpg" alt="Hoichoi">
-            </a>
-        </div>
-        <div class="grid-item">
-            <a href="#">
-                <img src="images/chaupal.png" alt="Chaupal">
-            </a>
-        </div>
-        <div class="grid-item">
-            <a href="#">
-                <img src="images/anime.jpg" alt="Anime Times">
-            </a>
-        </div>
-        <div class="grid-item">
-            <a href="#">
-                <img src="images/sony.png" alt="Sony Pictures Stream">
-            </a>
-        </div>
-        <div class="grid-item">
-            <a href="#">
-                <img src="images/mgm+.png" alt="MGM+">
-            </a>
-        </div>
-    </div>
-</section>
-<footer>
-    <div class="ftr"><img src="images/web_footer_logo.png"></div>
-    <div class="ftr">
-        <a class="ftrlinks" href="#">Terms and Privacy Notice</a>
-        <a  class="ftrlinks" href="#">Send us feedback</a>
-        <a  class="ftrlinks" href="#">Help</a>
-    </div>
-    <div class="ftr"><p class="last">© 1996-2024, Amazon.com, Inc. or its affiliates</p></div>
-    
-</footer>
-
+        <div class="ftr"><p class="last">© 1996-2024, Amazon.com, Inc. or its affiliates</p></div>
+        
+    </footer>
 </body>
-
 </html>
