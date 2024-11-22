@@ -160,25 +160,29 @@ section{
     display: block;
     border-radius: 8px;
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 90%;
+    max-width: 600px;
+}
 
-.ext{
-        width: 640px;
-        height: 450px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        align-items: center;
-        padding-right: 50px;
+.grid-item {
+    border-radius: 8px;
+    overflow: hidden;
 }
-.links{
-    
-    width: 200px;
-    height:140px;
-    border-radius: 10%;
-    border:none;
-    
+
+.grid-item img {
+    width: 100%;
+    display: block;
 }
-.links:hover{
+
+.grid-item a {
+    text-decoration: none;
+    color: inherit;
+}
+.grid-item:hover{
     box-shadow: 0 0 10px grey;
 }
 
@@ -228,6 +232,10 @@ footer>div>a:hover{
   align-items: center;
   justify-content: center;
 }
+
+nav{
+    margin-left: -4px;
+}
 section {
     flex-direction: column-reverse;
     padding: 20px;
@@ -248,26 +256,4 @@ section {
 }
 
 
-.ext{
-    width: 100%;
-    margin-bottom: 20px;
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    padding-right: 50px;
-}
-.links{
-
-width: 100px;
-height:80px;
-border-radius: 10%;
-border:none;
-
-}
-.links:hover{
-box-shadow: 0 0 10px grey;
-}
 }
