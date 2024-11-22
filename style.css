@@ -14,7 +14,6 @@ body{
   justify-content: center;
   margin-right: 10px;
   }
-  
 nav {
     display: flex;
     align-items: center;
@@ -23,13 +22,11 @@ nav {
     margin-left: 45px;
     font-size: medium;
     max-width: 100%;
-  }
-
+}
 .navimg{
     width:100px;
     padding-right: 22px;
 }
-
 nav a{
     padding-right: 25px;
 }
@@ -46,33 +43,27 @@ nav a{
     gap: 8px;
     cursor: pointer;
   }
-
-
   .rbtn:hover {
     background-color:#f1f1f1;
     color:#00050d;
     border-radius: 50%;
     box-shadow: 0 0 5px #f1f1f1; 
   }
-
   .sqbtn:hover {
     background-color:#f1f1f1;
     color:#00050d;
     border-radius: 8px;
     box-shadow: 0 0 10px #f1f1f1;
   }
-
   .subs{
     margin-left:  40px;
     margin-right: 230px;
   }
-
   .material-icons {
     font-size: medium;
     font-weight: Amazon Ember Display 300;
     vertical-align: middle;
   }
-
   .navbtn{
     background-color: black;
     color:white;
@@ -88,7 +79,6 @@ nav a{
     border-radius: 5px;
     box-shadow: 0 0 5px #f1f1f1;
 }
-
 .joinbtn{
     background-color: #157bcf;
     font-weight: 600;
@@ -116,20 +106,16 @@ section{
     padding: 5px 0 60px 50px;
     margin-left: 20px;
 }
-
 .text-container {
     text-align: left;
     margin-bottom: 40px;
     max-width: 50%;
 }
-
-
 .text-container h1 {
 
     font-size: 3.1rem;
     margin-bottom: 20px; 
 }
-
 .text-container p {
     font-size: 1.2rem;
     margin-top: 40px;
@@ -148,39 +134,30 @@ section{
     cursor: pointer;
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
-
 .text-container button:hover {
     transform: scale(1.1);
     background-color: #f1f1f1;
     color:#4d4d4d;
 }
-
 .image-container {
     width: 50%;
     border-radius: 5px;
     overflow: hidden;
 }
-
 .image-container img {
     width: 100%;
     height: auto;
     display: block;
     border-radius: 8px;
 }
-
 .sec3{
     display: flex;
     align-items:start;
     justify-content: flex-start;
-    padding: 5px 10px 60px 30px;
-    margin-left: 20px;
 }
-
 .sec3 .sec3text{
     margin-left: 30px;
-
 }
-
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -189,7 +166,6 @@ section{
     max-width: 600px;
     padding-left: 30px;
 }
-
 .grid-item {
     border-radius: 8px;
     overflow: hidden;
@@ -253,10 +229,22 @@ footer>div>a:hover{
         display: inline-flex;
         
       }      
-    .navbtn, .subs,.dash,.apps,.joinbtn {
+    .navbtn, .subs,.dash {
         display: none;
     }
-    
+    .text-container h1 {
+
+        font-size: 2rem;
+        margin-bottom: 20px; 
+    }
+    .text-container p {
+        font-size: 0.9rem;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        font-weight:600;
+        line-height:30px;
+    }    
+
 }
 
 
