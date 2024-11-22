@@ -8,8 +8,9 @@ body{
     background-color: black;
 }
 
+
 /* Nav Styling  */
-#menubtn {
+#menubtn, #rimg2{
     align-items: center;
   justify-content: center;
   margin-right: 10px;
@@ -18,17 +19,17 @@ nav {
     display: flex;
     align-items: center;
     background-color: black;
-    padding: 5px 20px;
-    margin-left: 45px;
+    padding:auto;
     font-size: medium;
-    max-width: 100%;
+    width: 100%;
 }
 .navimg{
     width:100px;
+    margin-left: 55px;
     padding-right: 22px;
 }
 nav a{
-    padding-right: 25px;
+    padding-right: 35px;
 }
 .btn {
     
@@ -188,7 +189,7 @@ footer{
     background-color: #222222;
     display: flex;
     flex-direction: column;
-    padding: 20px  0 0 0;
+    padding: 20px 0;
 }
 
 .ftr{
@@ -214,19 +215,20 @@ footer>div>a:hover{
 
 /* Large Screens */
 @media screen and (min-width: 1200px) {
-  #menubtn{
+  #menubtn,#rimg2{
     display: none;
   }
 }
-
-
 
 /* Medium Screens */
 @media screen and (min-width:768px)and (max-width:992px) {
     #menubtn{
         display: inline-flex;
         
-      }      
+      }
+    #rimg2{
+        display: none;
+    }      
     .navbtn, .subs,.dash {
         display: none;
     }
@@ -245,33 +247,39 @@ footer>div>a:hover{
 
 }
 
-
-
-
-
 /* Small Screens */
 @media screen and (max-width: 576px) {
 .navbtn, .subs,.dash,.apps,.joinbtn {
     display: none;
 }
+
 #menubtn{
-  display: inline-flex;
-
-  
+  display: inline-flex;  
 }
-
+#rimg1{
+    display: none;
+}
+#rimg2{
+    display: inline-block;  
+}
 nav{
     width: 100%;
-    margin-left: auto;
+    margin: 0;
     justify-content: space-evenly;
     
 }
+nav a{
+    padding: 5px;
+}
 section {
     flex-direction: column-reverse;
-    padding: 20px;
+    padding: 5px 0 60px 0;
+    margin: auto;
 }
-.secbtn{
+.text-container button{
     width: 100%;
+    padding: 15px;
+    
 }
 
 .text-container {
@@ -293,6 +301,12 @@ section {
 .image-container {
     width: 100%;
     margin-bottom: 5px;
+    align-self: center;
+}
+
+.grid-container{
+    padding: auto;
+    margin-left: 5px;
 }
 
 }
