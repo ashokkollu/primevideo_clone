@@ -1,5 +1,5 @@
 *{
-    font-family: 'Amazon Ember Display', sans-serif;
+    font-family: 'Amazon Ember', sans-serif;
     a{
         text-decoration: none;
     }
@@ -8,9 +8,11 @@ body{
     background-color: black;
 }
 
-/*nav styling  */
+/* Nav Styling  */
 #menubtn {
-    display: none;
+    align-items: center;
+  justify-content: center;
+  margin-right: 10px;
   }
   
 nav {
@@ -20,7 +22,7 @@ nav {
     padding: 5px 20px;
     margin-left: 45px;
     font-size: medium;
-    font-weight:550;
+    max-width: 100%;
   }
 
 .navimg{
@@ -45,6 +47,7 @@ nav a{
     cursor: pointer;
   }
 
+
   .rbtn:hover {
     background-color:#f1f1f1;
     color:#00050d;
@@ -65,7 +68,8 @@ nav a{
   }
 
   .material-icons {
-    font-size: 18px;
+    font-size: medium;
+    font-weight: Amazon Ember Display 300;
     vertical-align: middle;
   }
 
@@ -92,13 +96,15 @@ nav a{
     border-radius: 9px;
     border-color: none;
     margin-left: 10px;
+    width: 100px;
+    height: 25px;
 }
 .joinbtn:hover{
     background-color: #1a98ff;
     box-shadow: 0 0 10px #1a98ff;
 }
 
-/* section styling */
+/* Section Styling */
 
 h1, p{
     color:white;
@@ -120,7 +126,7 @@ section{
 
 .text-container h1 {
 
-    font-size: 3rem;
+    font-size: 3.1rem;
     margin-bottom: 20px; 
 }
 
@@ -128,7 +134,8 @@ section{
     font-size: 1.2rem;
     margin-top: 40px;
     margin-bottom: 30px;
-    font-weight:500;
+    font-weight:600;
+    line-height:30px;
 }
 .text-container button {
     background-color: #fff;
@@ -149,7 +156,7 @@ section{
 }
 
 .image-container {
-    width: 55%;
+    width: 50%;
     border-radius: 5px;
     overflow: hidden;
 }
@@ -160,12 +167,27 @@ section{
     display: block;
     border-radius: 8px;
 }
+
+.sec3{
+    display: flex;
+    align-items:start;
+    justify-content: flex-start;
+    padding: 5px 10px 60px 30px;
+    margin-left: 20px;
+}
+
+.sec3 .sec3text{
+    margin-left: 30px;
+
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     width: 90%;
     max-width: 600px;
+    padding-left: 30px;
 }
 
 .grid-item {
@@ -216,25 +238,47 @@ footer>div>a:hover{
 
 /* responsive */
 
-@media screen and (min-width: 769px) {
-  #menubtn {
-    
+/* Large Screens */
+@media screen and (min-width: 1200px) {
+  #menubtn{
     display: none;
   }
 }
 
-@media screen and (max-width: 600px) {
+
+
+/* Medium Screens */
+@media screen and (min-width:768px)and (max-width:992px) {
+    #menubtn{
+        display: inline-flex;
+        
+      }      
+    .navbtn, .subs,.dash,.apps,.joinbtn {
+        display: none;
+    }
+    
+}
+
+
+
+
+
+/* Small Screens */
+@media screen and (max-width: 576px) {
 .navbtn, .subs,.dash,.apps,.joinbtn {
     display: none;
 }
 #menubtn{
   display: inline-flex;
-  align-items: center;
-  justify-content: center;
+
+  
 }
 
 nav{
-    margin-left: -4px;
+    width: 100%;
+    margin-left: auto;
+    justify-content: space-evenly;
+    
 }
 section {
     flex-direction: column-reverse;
@@ -247,13 +291,22 @@ section {
 .text-container {
     text-align: left;
     max-width: 100%; 
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.text-container h1{
+    font-size: 1.8rem;
+}
+
+.text-container p{
+    font-size: 0.9rem;
+    font-weight:600;
+    line-height: 23px;
 }
 
 .image-container {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
-
 
 }
