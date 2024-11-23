@@ -289,10 +289,15 @@ footer div a:hover{
         justify-content: space-between;
     }
     .navdiv{
+        width: 400px;
+        
         flex-direction: row-reverse;
+        justify-content: space-evenly;
+       
     }
     .navimg{
         margin-top: 7px;
+        margin-left: 0;
 
     }
 
